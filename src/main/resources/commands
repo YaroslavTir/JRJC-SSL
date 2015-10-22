@@ -1,0 +1,2 @@
+openssl s_client -connect jira.atlassian.com:443 -showcerts
+keytool -import -v -trustcacerts -alias  polarion.atlassian.net  -file jiracom.cert -keystore jira.jks -keypass password -storepass password
